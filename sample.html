@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #in1{
+            /* padding: 10px; */
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label for="in1">Phone number</label>
+        <!-- length=min.8 + special_char + number + alphabates -->
+        <input type="password" id="in1" pattern="^(?=.*[A-Z])(?=.*[!@#$%^&*(),.?":{}|<>])[A-Za-z\d!@#$%^&*(),.?":{}|<>]{8,10}$
+        " placeholder="First Name"/>
+        <button type="submit">submit</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,73 @@
+.md{
+    font-size: 100%;
+}
+
+@keyframes btnn {
+    0%{
+        
+        /* transform: rotate(0deg); */
+        box-shadow: 0px 0px 10px 5px orange;
+    }
+    10%{
+        /* transform: rotate(360deg); */
+        box-shadow: 0px 0px 30px 10px orange;
+    }
+    /* 20%{
+        box-shadow: 15px 7px 3px 1px orange;
+    }
+    30%{
+        box-shadow: 0px 0px 3px 1px orange;
+    }
+    50%{
+        box-shadow: 0px 0px 10px 4px orange;
+    }
+    100%{
+        box-shadow: 0px 0px 30px 10px orange;
+    } */
+
+
+}
+.dd{
+    color: white;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 40px;
+    display: grid;
+    padding: 20px 30px 20px 30px;
+    grid-template-columns: auto ;
+    border-radius: 10px;
+    animation-name: btnn;
+    animation-duration: 10s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count: infinite;
+    /* box-shadow: 0px 0px 30px 10px orange; */
+}
+.d1{
+    display: none;
+}
+.d2{
+    display: grid;
+    gap: 20px;
+    font-weight: bold;
+}
+
+.btn{
+    /* margin-left: 63%; */
+    margin-top: 40px;
+    /* margin-bottom: 1px; */
+    width: 100%;
+    /* font-size: 100%; */
+    color: white;
+    background-color: orange;
+    border-radius: 10px;
+    font-size: 130%;
+}
+body{
+    background-image: url(./reg_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+input{
+    border-radius: 5px;
+    font-size: 130%;
+}

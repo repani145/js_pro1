@@ -1,0 +1,50 @@
+body{
+    background-image: url(./bgs/pexels-bess-hamiti-36487.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*{
+    color: white;
+}
+
+.pp{
+    font-size: 300%;
+    text-align: center;
+}
+
+.lout{
+    float: right;
+    font-size: 130%;
+    border-radius: 10px 10px 10px 10px;
+    margin-right: 20px;
+}
+.tble,tr,td{
+    border:2px solid grey;
+    width: 100%;
+}
+
+.lout:hover{
+    background-color: blue;
+    color: red;
+    transform: scale(110%);
+    /* transition-duration: 1s; */
+    
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+img:hover{
+    transform: scale(110%);
+    transition-duration: 1s;
+}
+.cd{
+    width: 20%;
+    text-align: center;
+}
+.mdd{
+    display: flex;
+    flex-wrap: column wrap;
+    justify-content: space-around;
+}
