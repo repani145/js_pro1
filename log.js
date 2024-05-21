@@ -102,7 +102,7 @@ fmm.addEventListener('submit',()=>{
             }
         }
         if(check==0){
-            window.location.assign('./reg.html')
+            window.location.assign('https://repani145.github.io/js_pro1/')
             window.alert('USER DEDAILS NOT FOUND(user details not found in database)! ')
             
             // btn.addEventListener('click',(eee)=>{
