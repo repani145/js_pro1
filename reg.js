@@ -65,7 +65,7 @@ function fill(){
     }
 
     var dt=document.getElementsByTagName('input')
-    if (dt[5].value!=dt[6].value){
+    if (dt[5].value!=dt[6].value){    //     CONFORM TWO PASSWORDS
         return fill()
     }else{
         return;
